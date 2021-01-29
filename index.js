@@ -1,6 +1,8 @@
 const fs = require('fs');
 const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
+const { token } = require('./config.json');
+const db = require('quick.db');
+const { defaultCipherList } = require('constants');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -17,6 +19,12 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
+	let prefix = db.get(`prefix_${message.guild.id}`)
+
+	const defaultprefix = '-'
+
+	if(prefix === null) prefix = defaultprefix
+
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
@@ -25,7 +33,7 @@ client.on('message', message => {
 	if (!client.commands.has(command)) return;
 
 	try {
-		client.commands.get(command).execute(message, args);
+		client.commands.get(command).run(client, message, args);
 	} catch (error) {
 		console.error(error);
 		message.reply('there was an error trying to execute that command!');
