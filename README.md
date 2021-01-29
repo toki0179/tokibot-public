@@ -1,4 +1,3 @@
 # TokiBot
 
-toki bot is still work in progress
-[x] test
+toki bot is still work in work in progress.
