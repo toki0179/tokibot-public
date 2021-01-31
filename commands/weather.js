@@ -3,10 +3,11 @@ const weather = require('weather-js');
 
 module.exports = {
 	name: 'weather',
-	description: 'checks weather',
+    description: 'Checks weather',
+    usage: '-weather <location>',
+    inHelp: 'yes',
 	async run(client, message, args) {
-        weather.find({search: args.join(" "), degreeType: 'F'}, function (error, result){
-            // 'C' can be changed to 'F' for farneheit results
+        weather.find({search: args.join(" "), degreeType: 'C'}, function (error, result){
             
             const specifyEmbed = new Discord.MessageEmbed()
             .setTitle('ERROR!')

@@ -3,7 +3,9 @@ const db = require('quick.db');
 
 module.exports = {
 	name: 'prefix',
-	description: 'sets guilds prefix',
+  description: 'Sets guilds prefix',
+  usage: '-prefix <prefix>',
+  inHelp: 'yes',
 	async run(client, message, args) {
 
         const permEmbed = new Discord.MessageEmbed()

@@ -2,7 +2,9 @@ const Discord = require('discord.js');
 
 module.exports = {
 	name: 'kick',
-	description: 'kicks the mentioned user',
+    description: 'Kicks the mentioned user',
+    usage: '-kick <user>',
+    inHelp: 'yes',
 	async run(client, message, args) {
 		
 		const permEmbed = new Discord.MessageEmbed()

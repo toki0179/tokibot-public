@@ -1,8 +1,10 @@
 const Discord = require('discord.js');
 
 module.exports = {
-	name: 'avatar',
-	description: 'gives a users avatar!',
+        name: 'avatar',
+        description: 'Gives a users avatar!',
+        usage: '-avatar <user>',
+        inHelp: 'yes',
 	async run(client, message, args) {
         let member = message.mentions.users.first() || message.author
 
