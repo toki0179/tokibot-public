@@ -31,9 +31,9 @@ TokiBot is now ready to run!
 To add your own commands you just need to follow this template:
 ```js
 module.exports = {
-	name: 'ping',
-        description: 'Gives bot ping',
-        usage: '-ping',
+	name: 'example',
+        description: 'This is an example!',
+        usage: '-example',
         inHelp: 'yes',
         async run(client, message, args) {
 		//code goes here!
