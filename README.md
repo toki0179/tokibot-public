@@ -36,7 +36,7 @@ module.exports = {
         usage: '-ping',
         inHelp: 'yes',
         async run(client, message, args) {
-          //code goes here!
+		//code goes here!
 	},
 };
 ```
