@@ -6,7 +6,6 @@ const { defaultCipherList } = require('constants');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
-client.aliases = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
