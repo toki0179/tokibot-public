@@ -18,8 +18,9 @@ TokiBot is still work in work in progress and has many bugs!
 - Download all the dependencies using ```npm i``` 
 If you do not know how to host a bot or have no knowledge in javascript then please do some research before installing this!
 
-After you have installed you need to put your token in config.json.
-TokiBot is now ready to run!
+- After you have installed you need to put your token in config.json. 
+
+- TokiBot is now ready to run!
 
 # How to add your own commands
 To add your own commands you just need to follow this template:
