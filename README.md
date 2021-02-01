@@ -13,4 +13,4 @@ toki bot is still work in work in progress and has many bugs!
 
 # Installation guide
 
-- Download all the dependencies and stuff :))
+- Download all the dependencies using ```npm i```
