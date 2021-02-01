@@ -18,7 +18,7 @@ If you do not know how to host a bot or have no knowledge in javascript then ple
 
 - Download all the dependencies using `npm i`
 
-- After you have installed you need to put your token in config.json. 
+- After you have installed all dependencies you need to put your token in config.json. 
 
 - TokiBot is now ready to run!
 
