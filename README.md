@@ -1,6 +1,6 @@
 # TokiBot
 
-toki bot is still work in work in progress.
+toki bot is still work in work in progress and has many bugs!
 
 # ToDo
 
@@ -10,3 +10,7 @@ toki bot is still work in work in progress.
 - [ ] Add Levelling system
 - [ ] More soon
 - [x] Add basic command handler
+
+# Installation guide
+
+- Download all the dependencies and stuff :))
