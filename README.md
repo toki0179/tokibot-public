@@ -9,6 +9,7 @@ toki bot is still work in work in progress and has many bugs!
 - [ ] Add music commands
 - [ ] Add Levelling system
 - [ ] More soon
+- [ ] Add economy system
 - [x] Add basic command handler
 
 # Installation guide
