@@ -10,19 +10,13 @@ TokiBot is still work in work in progress and has many bugs!
 - [ ] Add Levelling system
 - [ ] More soon
 - [ ] Add economy system
+- [ ] Add a better help command
 - [x] Add basic command handler
 
 # Installation guide
 
 - Download all the dependencies using ```npm i``` 
-
-You might have to individually install them and if that is the case a list of all modules will be listed below:
-
-- discord.js
-- quick.db
-- weather-js
-- moment
-- discord.js-commando
+If you do not know how to host a bot or have no knowledge in javascript then please do some research before installing this!
 
 After you have installed you need to put your token in config.json.
 TokiBot is now ready to run!
