@@ -5,6 +5,7 @@ TokiBot is still work in work in progress and has many bugs!
 # ToDo
 
 - [ ] Add aliases
+- [ ] Add server backups
 - [ ] Add minecraft server status embeds!
 - [ ] All moderation commands
 - [ ] Add music commands
