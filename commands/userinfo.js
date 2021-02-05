@@ -20,28 +20,34 @@ module.exports = {
       .setFooter('Made by tokihub#1000')
       .addFields(
         {
-          name: 'User tag',
+          name: 'User Tag',
           value: user.tag,
+          inline: true
         },
         {
-          name: 'Is bot',
+          name: 'Is Bot',
           value: user.bot,
+          inline: true
         },
         {
           name: 'Nickname',
           value: member.nickname || 'None',
+          inline: true
         },
         {
           name: 'Joined Server',
           value: new Date(member.joinedTimestamp).toLocaleDateString(),
+          inline: true
         },
         {
           name: 'Joined Discord',
           value: new Date(user.createdTimestamp).toLocaleDateString(),
+          inline: true
         },
         {
           name: 'Roles',
           value: member.roles.cache.size - 1,
+          inline: true
         }
       )
 

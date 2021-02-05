@@ -8,7 +8,7 @@ module.exports = {
         async run(client, message, args) {
             const embed = new Discord.MessageEmbed()
             .setTitle('Help!')
-            .addField(
+            .addFields(
                 {
                     name: '-help',
                     value: 'Provides all commands in the bot.',
