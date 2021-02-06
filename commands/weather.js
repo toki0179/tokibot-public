@@ -21,7 +21,7 @@ module.exports = {
             .setFooter('Made by tokihub#1000')
 		    .setColor('#FF0000')
 
-            if(error) return message.channel.send(error);
+            if(error) return message.channel.send(specifyEmbed);
             if(!args[0]) return message.channel.send(specifyEmbed)
     
             if(result === undefined || result.length === 0) return message.channel.send(invalidEmbed);

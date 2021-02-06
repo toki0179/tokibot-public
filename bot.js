@@ -23,7 +23,7 @@ client.once('ready', () => {
 client.on('message', message => {
 	let prefix = db.get(`prefix_${message.guild.id}`)
 
-	const defaultprefix = '-'
+	const defaultprefix = '+'
 
 	if(prefix === null) prefix = defaultprefix
 
