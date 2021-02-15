@@ -11,7 +11,7 @@ TokiBot is still work in work in progress and has many bugs!
 - [ ] Add Levelling system
 - [ ] More soon
 - [ ] Add economy system
-- [ ] Add a better help command
+- [x] Add a better help command
 - [x] Add basic command handler
 
 # Installation guide
