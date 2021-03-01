@@ -4,6 +4,7 @@ const { token } = require('./config.json');
 const db = require('quick.db');
 const { defaultCipherList } = require('constants');
 const { aliases } = require('./commands/avatar');
+const { ShardingManager } = require('discord.js');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -16,8 +17,13 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
-client.once('ready', () => {
+client.once('ready', async () => {
 	console.log('Ready!');
+        
+	let i = 0
+	client.user.setActivity(`+help || Serving ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} users || Serving ${client.guilds.cache.size} servers`)
+	setInterval(() => client.user.setActivity(`+help || Serving ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} users || Serving ${client.guilds.cache.size} servers`), 600000);
+	
 });
 
 client.on('message', message => {
@@ -29,8 +35,8 @@ client.on('message', message => {
 
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-	const args = message.content.slice(prefix.length).trim().split(/ +/);
-	const command = args.shift().toLowerCase();
+	let args = message.content.slice(prefix.length).trim().split(/ +/);
+	let command = args.shift().toLowerCase();
 
 	if (!client.commands.has(command)) return;
 
