@@ -12,7 +12,7 @@ TokiBot is still work in work in progress and has many bugs!
 - [ ] More soon
 - [ ] Add economy system
 - [ ] Add a better help command
-- [x] Add basic command handler
+- [x] Add command handler
 
 # Installation guide
 If you do not know how to host a bot or have no knowledge in javascript then please do some research before installing this!
