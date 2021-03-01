@@ -16,6 +16,8 @@ TokiBot is still work in work in progress and has many bugs!
 # Installation guide
 If you do not know how to host a bot or have no knowledge in javascript then please do some research before installing this!
 
+- First please make sure that you have nodejs 14 installed on your server. If you do not have it installed you can install it from https://nodejs.org/en/ 
+
 - Download all the dependencies using `npm i`
 
 - After you have installed all dependencies you need to put your token in config.json. 
