@@ -17,7 +17,7 @@ module.exports = {
     const embed = new MessageEmbed()
       .setAuthor(`User info for ${user.username}`, user.displayAvatarURL())
       .setImage(`${user.displayAvatarURL({size: 512})}`)
-      .setFooter('Made by tokihub#1000')
+      .setFooter('Made by toki#0999')
       .addFields(
         {
           name: 'User Tag',
