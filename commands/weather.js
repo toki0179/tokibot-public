@@ -12,13 +12,13 @@ module.exports = {
             const specifyEmbed = new Discord.MessageEmbed()
             .setTitle('ERROR!')
             .setDescription('Please specify a location!')
-            .setFooter('Made by tokihub#1000')
+            .setFooter('Made by toki#0999')
 		    .setColor('#FF0000')
 
             const invalidEmbed = new Discord.MessageEmbed()
             .setTitle('ERROR!')
             .setDescription('Location is invalid!')
-            .setFooter('Made by tokihub#1000')
+            .setFooter('Made by toki#0999')
 		    .setColor('#FF0000')
 
             if(error) return message.channel.send(specifyEmbed);
