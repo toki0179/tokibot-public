@@ -11,13 +11,13 @@ module.exports = {
         const permEmbed = new Discord.MessageEmbed()
         .setTitle('ERROR!')
         .setDescription('You do not have the correct permissions to use this command!')
-        .setFooter('Made by tokihub#1000')
+        .setFooter('Made by toki#0999')
         .setColor('#FF0000')
 
         const errorEmbed = new Discord.MessageEmbed()
         .setTitle('ERROR!')
         .setDescription('Please provide the prefix you would like to use!')
-        .setFooter('Made by tokihub#1000')
+        .setFooter('Made by toki#0999')
         .setColor('#FF0000')
 
         const member = message.guild.member(message.author);
@@ -33,7 +33,7 @@ module.exports = {
         const complete = new Discord.MessageEmbed()
         .setTitle('Prefix is now: ')
         .setDescription(`${args[0]}`)
-        .setFooter('Made by tokihub#1000')
+        .setFooter('Made by toki#0999')
         .setColor('#32cd32')
 
         message.channel.send(complete)
