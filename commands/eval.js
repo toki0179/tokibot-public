@@ -18,7 +18,7 @@ module.exports = {
             const ownerEmbed = new Discord.MessageEmbed()
             .setTitle('ERROR!')
             .setDescription('Only the owner of the bot can run this command!')
-            .setFooter('Made by tokihub#1000')
+            .setFooter('Made by toki#0999')
             .setColor('#FF0000')
 
             if(message.author.id !== ownerID) return message.channel.send(ownerEmbed);
