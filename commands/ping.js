@@ -9,7 +9,7 @@ module.exports = {
                 const embed = new Discord.MessageEmbed()
                 .setTitle(`:ping_pong:TokiBot's Ping:`)
                 .setDescription(`${Math.round(client.ws.ping)}ms`)
-                .setFooter('Made by tokihub#1000')
+                .setFooter('Made by toki#0999')
         
                 message.channel.send(embed);
 	},
