@@ -10,6 +10,7 @@ TokiBot is still work in work in progress and has many bugs!
 - [ ] Add music commands
 - [ ] Add Levelling system
 - [ ] Add economy system
+- [ ] Switch to mongodb
 - [x] Add a better help command
 - [x] Add command handler
 
