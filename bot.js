@@ -2,8 +2,6 @@ const fs = require('fs');
 const Discord = require('discord.js');
 const { token } = require('./config.json');
 const db = require('quick.db');
-const { defaultCipherList } = require('constants');
-const { aliases } = require('./commands/avatar');
 const { ShardingManager } = require('discord.js');
 
 const client = new Discord.Client();
